@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    h1 {
+      color: cyan;
+      font-family: verdana;
+      font-size: 300%;
+    }
+    p {
+      color: rgb();
+      font-family: courier;
+      font-size: 160%;
+    }
+    p {
+      border: 2px solid powderblue;
+      padding: 30px;
+    
+    }
+    
+    </style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar navbar-fixed-top navbar-light" style="background-color: #e3f2fd;" role="navigation">  <!navbar-inverse is black, navbar-default is grey>
+  
+  
+  
+  <div class="navbar-header">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+    
+      <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+         <img src="tree.png" width="30" height="30" alt="" loading="lazy">
+      </button>
+    
+  </div>
+  
+  
+  
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand"><I><b>DYNAMIC</b></I></a>
+      </div>
+  
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-mid">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Donate</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Penny Wars</a></li>
+              <li><a href="#">Wonderful Wednesday</a></li>
+              <li><a href="#">Lip Sync</a></li>
+              <li><a href="#">Concert</a></li>
+            </ul>
+          </li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+     </div>
+  </div>
+    
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<div class="user-detail">
+    <h2>Create User Data</h2>
+    <form action="/users/create" method="POST">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter Full Name" name="fullName" required>
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter Email Address" name="emailAddress" required>
+          <label>City</label>
+          <input type="city" placeholder="Enter Full City" name="city" required>
+          <label>Country</label>
+          <input type="text" placeholder="Enter Full Country" name="country" required>
+          <button type="submit">Submit</button>
+        </div>
+</div>
+</body>
+</html>
